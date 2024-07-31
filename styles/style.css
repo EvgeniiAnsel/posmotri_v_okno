@@ -64,7 +64,7 @@ ol {
   object-position: center;
 }
 
-.search-form{
+.search-form {
   display: grid;
   grid-template-columns: 225px 1fr 194px;
   place-items: end center;
@@ -176,7 +176,6 @@ ol {
 }
 
 .button {
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
