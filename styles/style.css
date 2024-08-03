@@ -45,7 +45,7 @@ ol {
   width: 1140px;
   height: 534px;
   gap: 30px;
-  align-items: flex-start;
+  align-items: flex-end;
   text-align: left;
 }
 
@@ -217,7 +217,6 @@ ol {
 .content__details {
   display: flex;
   position: relative;
-  bottom: 71px;
   flex-direction: column;
   align-items: flex-start;
   gap: 26px;
@@ -243,16 +242,17 @@ display: flex;
 height: 298px;
 flex-direction: column;
 align-items: flex-start;
+gap: 0;
 overflow: auto;
+}
+
+.content__list-item:not(:last-of-type) {
+  margin-bottom: 30px;
 }
 
 .content__list-item {
   display: flex;
   align-items: flex-start;
-}
-
-.content__list-item:not(:last-of-type) {
-  margin-bottom: 30px;
 }
 
 .content__card-link {
